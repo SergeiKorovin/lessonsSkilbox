@@ -1,0 +1,147 @@
+.feedback {
+    background: linear-gradient(114.85deg, #181A1D 0%, #1F153C 100%);
+    width: 100%;
+    height: 900px;
+} 
+
+.feedback__img-mascot {
+    position: absolute;
+    top: 40px;
+    left: 498px;
+}
+
+.feedback__img-smile {
+    position: absolute;
+    bottom: 87px;
+    left: 498px;
+}
+
+.feedback__list {
+    list-style-type: none;
+       
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    position: relative;
+}
+
+.feedback__item {
+    border-radius: 40px;
+    padding: 32px 40px;
+    position: relative;
+}
+
+.feedback__item--blue {
+    width: 334px;
+    height: 160px;
+    background: #243961;
+    position: absolute;
+    top: 83px;
+    left: 608px;
+}
+
+.feedback__item--purple {
+    width: 297px;
+    height: 136px;    
+    background: #61235F;
+    color: #61235F;
+    position: absolute;
+    top: 231px;
+    right: 24px;
+}
+
+.feedback__item--green {
+    width: 283px;
+    height: 136px;
+    background: #315C51;
+    color: #315C51;
+    position: absolute;
+    top: 499px;
+    right: 0;
+}
+
+.feedback__item--red {
+    width: 363px;
+    height: 112px;
+    background: #6A2844;
+    color: #6A2844;
+    position: absolute;
+    bottom: 62px;
+    left: 798px;
+}
+
+.feedback__item--violet {
+    width: 423px;
+    height: 136px;
+    background: #432858;
+    position: absolute;
+    left: 141px;
+    bottom: 86px;
+}
+
+.feedback__item--brown {
+    width: 303px;
+    height: 160px;
+    background: #62432C;
+    color: #62432C;
+    position: absolute;
+    left: 0;
+    top: 427px;
+}
+
+.feedback__item--dark-green {
+    width: 363px;
+    height: 136px;
+    background: #676A47;
+    color: #676A47;
+    position: absolute;
+    left: 63px;
+    top: 157px;
+}
+
+.feedback__callout-left {
+    position: absolute;
+    left: -17px;
+    bottom: 0;
+}
+
+.feedback__callout-right {
+    position: absolute;
+    right: -17px;
+    bottom: 0;
+}
+
+.feedback__text {
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.feedback__wrapper {
+    width: 540px;
+    position: absolute;
+    top: 327px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.feedback__wrapper-text {
+    width: 520px;
+    padding: 0 10px;
+    margin: 0 0 16px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.feedback__form {
+    width: 540px;
+}
+

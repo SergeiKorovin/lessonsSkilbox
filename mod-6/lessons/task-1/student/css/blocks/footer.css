@@ -1,0 +1,53 @@
+.footer {
+    background: rgba(255, 255, 255, 0.1);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer__wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer__logo {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer__copyright {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__copyright-text {
+    font-size: 12px;
+    line-height: 16px;
+    width: 128px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__form {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+}
+
+.footer__form-text {
+    width: 230px;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: end;
+}
+
+

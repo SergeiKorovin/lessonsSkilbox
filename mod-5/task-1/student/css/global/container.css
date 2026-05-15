@@ -1,0 +1,8 @@
+.container {
+    width: 1120px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+
+}

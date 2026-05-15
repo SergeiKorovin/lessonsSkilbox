@@ -1,0 +1,12 @@
+.products {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.products__item {
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Стилизация SVG</title>
+</head>
+
+<body>
+<main>
+  <section class="example">
+    <h1 class="example__title">Стилизация SVG</h1>
+    <a class="example__link example__link--1" href="#">
+      <svg width="30" height="30" aria-hidden="true">
+        <use xlink:href="images/sprite/sprite.svg#icon-like"></use>
+      </svg>
+      <span class="example__link-text">Поставить лайк</span>
+    </a>
+
+    <a class="example__link example__link--2 example__link--pink" href="#">
+      <svg width="80" height="80" aria-hidden="true">
+        <use xlink:href="images/sprite/sprite.svg#icon-star"></use>
+      </svg>
+      <span class="example__link-text">Немного розовой магии</span>
+    </a>
+
+    <a class="example__link example__link--2 example__link--blue" href="#">
+      <svg width="80" height="80" aria-hidden="true">
+        <use xlink:href="images/sprite/sprite.svg#icon-star"></use>
+      </svg>
+      <span class="example__link-text">Немного синей магии</span>
+    </a>
+
+    <a class="example__link example__link--2 example__link--blue" href="#">
+      <svg width="80" height="80" aria-hidden="true">
+        <use xlink:href="images/sprite/sprite.svg#icon-star"></use>
+      </svg>
+      <span class="example__link-text">Немного синей магии</span>
+    </a>
+
+    <a class="example__link example__link--3" href="#">
+      <svg id="icon-heart" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24">
+        <path class="example__path example__path--pink" d="M12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5" stroke-width="1.5" stroke-linecap="round"/>
+        <path class="example__path example__path--blue" d="M12 5.50063C16.4998 0.825464 22 4.27416 22 9.1371C22 14 17.9806 16.5914 15.0383 18.9109C14 19.7294 13 20.5 12 20.5" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <span class="example__link-text">Немного любви</span>
+    </a>
+
+
+
+    <a class="example__link example__link--4" href="#">
+      <svg width="80" height="80" aria-hidden="true">
+        <use xlink:href="images/sprite/sprite.svg#icon-toggle"></use>
+      </svg>
+    </a>
+
+  </section>
+</main>
+</body>
+
+</html>

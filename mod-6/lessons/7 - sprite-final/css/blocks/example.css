@@ -1,0 +1,77 @@
+.example {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.example__title {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.example__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 30px;
+  margin: 0 0 30px 0;
+}
+
+.example__link-text {
+  margin: 0 0 0 5px;
+}
+
+.example__link--1 svg {
+  fill: #2F4182;
+}
+
+.example__link--1:hover {
+  color: #1E90FF;
+}
+
+.example__link--1:hover svg {
+  fill: #C71585;
+}
+
+.example__link--pink {
+  color: #C71585;
+}
+
+.example__link--blue {
+  color: #1E90FF;
+}
+
+.example__link--pink:hover svg {
+  color: #52A345;
+}
+
+.example__link--blue:hover svg {
+  color: #B88F64;
+}
+
+.example__path--pink {
+  stroke: #C71585;
+  fill: rgba(199, 21, 133, 0.4);
+}
+
+.example__path--blue {
+  stroke: #1E90FF;
+  fill: rgba(30, 144, 255, 0.4);
+}
+
+.example__link--3:hover .example__path--pink {
+  stroke: #1E90FF;
+  fill: rgba(30, 144, 255, 0.4);
+}
+
+.example__link--3:hover .example__path--blue {
+  stroke: #C71585;
+  fill: rgba(199, 21, 133, 0.4);
+}

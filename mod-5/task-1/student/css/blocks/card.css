@@ -1,0 +1,11 @@
+.card {
+    margin: 0 0 60px 0;
+}
+
+.card__wrapper {
+    display: grid;
+    grid-template-columns: 380px auto 380px;
+    gap: 20px;
+}
+
+

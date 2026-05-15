@@ -1,0 +1,128 @@
+.product-card {
+    display: flex;
+    gap: 50px;
+    background-color: #28292D;
+    /* box-shadow: 0px 10px 40px 0px #00000033; */
+    border-radius: 12px;
+    padding: 10px;
+    height: 100%;
+}
+
+.product-list--column .product-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.product-card__product-img {
+    border-radius: 12px;
+}
+
+.product-list--column .product-card__product-img {
+    width: 100%;
+    height: 240px;
+}
+
+.product-card__text-wrapper {
+    background-image: linear-gradient(90deg, rgba(38, 170, 154, 0.2) 0%, rgba(38, 170, 154, 0.6) 100%);
+    border-radius: 12px;
+    padding: 30px 40px;
+    width: 540px;
+    
+}
+
+.product-list--column .product-card__text-wrapper {
+    width: 340px;
+    padding: 0;
+    background-image: unset;
+}
+
+.product-card__title {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+.product-list--column .product-card__title {
+   
+    font-size: 16px;
+    line-height: 22px;
+  
+}
+
+.product-card__descriptions {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+}
+
+.page-content__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-list--column .page-content__info {
+    text-align: left;
+}
+
+.product-card__price {
+    font-size: 24px;
+    line-height: 28px;
+    color: #26AA9A;
+}
+
+.product-card__links {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+.product-list--column .product-card__links {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 100%;
+    gap: 10px;
+}
+
+.product-card__link {
+    background: #26AA9A;
+    border-radius: 8px;
+    text-align: center;
+    padding: 14px;
+    color: #1F2023;
+
+}
+
+.product-list--column .product-card__link {
+    width: 50%;
+}
+
+.product-card__link--secondary {
+    color: #ffffff;
+    background: unset;
+    border: 2px solid #26AA9A;
+    padding: 14px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.product-card__delivery {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+
+}

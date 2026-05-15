@@ -1,0 +1,40 @@
+.custom-input {
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.custom-input__field {
+    width: 100%;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 34px 54px 12px 20px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    outline: none;
+}
+
+.custom-input__label {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255,0.7);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.custom-input__icon {
+    position: absolute;
+    top: 34px;
+    right: 20px;
+}
+
+.custom-input__icon--card {
+    display: flex;
+    gap: 12px;
+}

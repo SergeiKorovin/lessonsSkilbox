@@ -1,0 +1,24 @@
+.aside-trip {
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(225, 225, 228, 1)
+}
+
+.aside-trip__title {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.aside-trip__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 25px;
+}

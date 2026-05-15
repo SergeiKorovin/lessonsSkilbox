@@ -1,0 +1,39 @@
+.custom-email {
+    display: flex;
+    gap: 16px;
+    position: relative;
+}
+
+.custom-email__field {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    padding: 12px 48px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    border: none;
+}
+
+.custom-email__field::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+
+}
+
+.custom-email__icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.custom-email__btn {
+    border: none;
+    border-radius: 8px;
+    background: #87F29A;
+    padding: 12px 32px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #000000;
+    font-family: inherit;
+}

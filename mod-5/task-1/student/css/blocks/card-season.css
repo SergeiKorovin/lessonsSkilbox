@@ -1,0 +1,97 @@
+.card-season {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 30px;
+    background-color: #E0E5FA;
+    border-radius: 24px;
+}
+
+.card-season__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #9E5FC4
+}
+
+.card-season__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-season__title {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #9e5fc4;
+    margin: 0;
+    padding: 0;
+}
+
+.card-season__description {
+    margin: 0;
+    padding: 0;
+}
+
+.card-season__btn {
+    color: #ffffff;
+    background-color: #9e5fc4;
+    width: 154px;
+}
+
+.card-season--two-rows {
+    grid-row: span 2;
+}
+
+.card-season__text {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.card-season--two-columns {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    color: #ffffff;
+    background: linear-gradient(87.12deg, #5839B0 1.65%, #4162B8 100%);
+}
+
+.card-season__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-season--two-columns .card-season__text {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.002em;
+}
+
+.card-season__label {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    gap: 15px;
+}
+
+.card-season__label-comment {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card-season--two-columns .card-season__img {
+    border: none;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,47 @@
+.tours {
+  margin: 0 0 55px;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    @include vp-1439 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include vp-767 {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+
+  &__item .card-tour__label-info--bg-violet {
+    @include vp-767 {
+      display: none;
+    }
+  }
+
+  &__item--flat {
+    grid-column: span 2;
+
+    &:nth-last-child(2) {
+      @include vp-1439 {
+        grid-column: span 1;
+      }
+    }
+
+      &:nth-last-child(2) .card-tour__label-info--bg-violet {
+        @include vp-1439 {
+          display: none;
+        }
+      }
+  }
+
+  
+}

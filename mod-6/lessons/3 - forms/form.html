@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="POST">                                               <!--action - сервер куда отправить данный формы; method - метод отправки (GET, POST)-->
+        <input type="text" placeholder="Ваше имя" name="name">              <!-- Поле для ввода текста (по умолчанию) -->
+        <input type="tel" placeholder="Ваш телефон" name="phone">           <!-- Поле для ввода елефона -->
+        <input type="email" placeholder="Ваш эл. почта" name="email">       <!-- Поле для ввода электронной почты --> 
+        <input type="password" placeholder="Ваш пароль" name="password">    <!-- Поле для ввода пароля-->
+        <input type="search" placeholder="Что искать" name="search">        <!-- Поле для ввода поиска-->
+        <input type="text" placeholder="Город доставки" value="Омск" name="city">
+
+        <input type="checkbox" value="promo" name="promo"> Есть промокод
+        <input type="checkbox" value="doorphone" name="doorphone"> Есть домофон
+        <input type="checkbox" value="elevator" name="elevator"> Есть лифт
+
+        <input type="radio" value="card" name="payment">Оплата картой
+        <input type="radio" value="cash" name="payment">Оплата наличными
+        <input type="radio" value="discount" name="payment">Оплата купоном
+
+        <textarea value="Коментарий" name="comment" rows="5" cols="45" placeholder="Ваш комментарий">
+
+        </textarea>
+    </form>
+</body>
+</html>

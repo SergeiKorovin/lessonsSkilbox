@@ -1,0 +1,90 @@
+.banner {
+	min-height: 710px;
+	padding: 100px 65px;
+	background-image: url("../../images/bg-desktop.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+
+	@media (max-width: $vp-tablet) {
+		min-height: 700px;
+		padding: 116px 33px;
+	}
+
+	@media (max-width: $vp-mobile) {		
+		min-height: 682px;
+		padding: 42px 15px;
+	}
+
+	&__text-block {
+		display: flex;
+		flex-direction: column;
+		gap: 44px;
+		width: 616px;
+		margin-bottom: 63px;
+
+		@media (max-width: $vp-tablet) {
+			gap: 44px;
+			width: 459px;
+			margin-bottom: 63px;
+		}
+
+		@media (max-width: $vp-mobile) {
+			gap: 28px;
+			width: 100%;
+			margin-bottom: 27px;
+		}
+	}
+
+	&__text {
+		margin: 0;
+		font-size: 36px;
+		line-height: 44px;
+		color: $color-white;
+
+		@media (max-width: $vp-tablet) {
+			font-size: 32px;
+			line-height: 38px;
+		}
+	
+		@media (max-width: $vp-mobile) {
+			font-size: 24px;
+			line-height: 29px;
+			text-align: center;
+		}
+	}
+	
+
+	&__link {
+		display: block;
+		width: 365px;
+		padding: 28px;
+		font-size: 24px;
+		line-height: 16px;
+		color: $color-carmine;
+		text-align: center;
+		text-transform: uppercase;
+		background-color: $color-white;
+		border: 1px solid $color-light-grey;
+		border-radius: 10px;
+
+		@media (max-width: $vp-tablet) {
+			color: $color-midnight-express;
+		}
+	
+		@media (max-width: $vp-mobile) {
+			width: 100%;
+			padding: 23px;
+			font-size: 16px;
+			line-height: 16px;
+		}
+
+		&:hover {
+			color: $color-burgundy;
+
+			@media (max-width: $vp-tablet) {
+				color: $color-sapphire;
+			}
+		}
+	}
+}

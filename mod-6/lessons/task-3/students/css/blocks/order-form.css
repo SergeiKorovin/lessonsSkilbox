@@ -1,0 +1,117 @@
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.order-form__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 0 80px 0;
+}
+
+.order-form__heading-title {
+    font-family: "Press Start 2P", "Arial", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #87F29A;
+    margin: 0;
+    padding: 0;
+}
+
+.order-form__heading-text {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.order-form__wrapper {
+    display: grid;
+    grid-template-columns: auto 420px;
+    gap: 80px;
+    align-items: start;
+}
+
+.order-form__left-col {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.order-form__group {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.order-form__group-name {
+    font-family: "Press Start 2P", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 40px 0;
+}
+
+.order-form__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.order-form__contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 20px;
+}
+
+.order-form__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.order-form__inner-get {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}   
+
+.order-form__get-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 20px;
+}
+
+
+
+.order-form__checkbox-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.order-form__card-wrapper {
+    display: grid;
+    grid-template-columns: auto 94px 94px 94px;
+    gap: 12px;
+}
+
+.order-form__send-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.order-form__right-col {
+    position: sticky;
+    top: 50px;
+}

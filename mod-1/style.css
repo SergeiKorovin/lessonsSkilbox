@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-content {
+    padding: 60px 30px;    
+}
+
+.banner-intro {
+    background: url(img/Rectangle\ 3.jpg) no-repeat;
+    background-size: cover;
+
+    width: 1220px;
+    height: 1193px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.24em;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 60px;
+    margin: 0;
+}
+
+.banner-intro__info {
+    width: 600px;
+    height: 696px;
+    background-color: #FFFFFF;
+    border-radius: 20px 120px 20px 120px;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 5px 5px 10px 0px rgba(172, 224, 249, 0.6);
+
+}
+
+.banner-intro__product-title {
+    font-weight: 400;
+    width: 510px;
+    font-size: 30px;
+    line-height: 1.2em;
+    text-align: center;
+    color: #444444;
+    margin: 45px auto 30px;
+}
+
+.banner-intro__product-text {
+    width: 400px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3em;
+    text-align: center;
+    color: #444444;
+}
+
+.banner-intro__product-price {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.2em;
+    text-align: right;
+    color: #000000;
+    padding-right: 45px;
+}
+
+.banner-intro__link {
+    display: block;
+    text-align: center;
+    width: 376px;
+    background-image: linear-gradient(90deg, rgb(255,241,235,1) 0%, rgb(172,224,248,1) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.23em;
+    color: #444444;
+    text-decoration: none;
+    padding: 21px;
+    margin: 85px auto 48px;
+}
+
+.banner-intro__note {
+    font-size: 35px;
+    color: #ffffff;
+    background-color: #666666;
+}

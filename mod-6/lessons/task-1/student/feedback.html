@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Обратная связь - БЕСIT</title>
+  </head>
+  <body>
+    <main>
+      <!-- Обратная связь -->
+      <section class="feedback">
+        <div class="container">
+          <h1 class="visually-hidden">Обратная связь</h1>
+          <svg class="feedback__img-mascot" width="180" height="180" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#mascot"></use>
+          </svg>
+          <svg class="feedback__img-smile" width="180" height="180" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#smile"></use>
+          </svg>
+          <ul class="feedback__list">
+            <li class="feedback__item feedback__item--blue">
+              <p class="feedback__text">Я&nbsp;всю жизнь хотел в&nbsp;IT и&nbsp;у&nbsp;меня получилось. Но&nbsp;теперь я&nbsp;хочу с&nbsp;кем-то об&nbsp;этом
+              поговорить...</p>
+              
+            </li>
+            <li class="feedback__item feedback__item--purple">
+              <p class="feedback__text">Для тестировщиков есть отдельный котёл в&nbsp;аду, я&nbsp;проверяла</p>
+              <svg class="feedback__callout-left" width="32" height="40" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#callout-left"></use>
+              </svg>
+            </li>
+            <li class="feedback__item feedback__item--green">
+              <p class="feedback__text">Что делать, если я&nbsp;хочу быть котиком, но&nbsp;надо идти и&nbsp;писать код?</p>
+              <svg class="feedback__callout-left" width="32" height="40" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#callout-left"></use>
+              </svg>
+            </li>
+            <li class="feedback__item feedback__item--red">
+              <p class="feedback__text">Как&nbsp;же бесит Safari и&nbsp;его бесконечные баги с&nbsp;анимациями</p>
+              <svg class="feedback__callout-left" width="32" height="40" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#callout-left"></use>
+              </svg>
+            </li>
+            <li class="feedback__item feedback__item--violet">
+              <p class="feedback__text">У&nbsp;меня так много рабочих созвонов, что может показаться, что я&nbsp;зарабатываю не&nbsp;разработкой,
+              а&nbsp;вебкамом</p>
+            </li>
+            <li class="feedback__item feedback__item--brown">
+              <p class="feedback__text">4&nbsp;часа искать ошибку в&nbsp;коде, а&nbsp;в&nbsp;итоге найти неправильно написанное слово &laquo;heigth&raquo;</p>
+              <svg class="feedback__callout-right" width="32" height="40" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#callout-right"></use>
+              </svg>
+            </li>
+            <li class="feedback__item feedback__item--dark-green">
+              <p class="feedback__text">Бесит когда дизайнеры в&nbsp;10&nbsp;раз правят отступы, после того как я&nbsp;закончил править&nbsp;ПП</p>
+              <svg class="feedback__callout-right" width="32" height="40" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#callout-right"></use>
+              </svg>
+            </li>
+          </ul>
+          <div class="feedback__wrapper">
+            <svg class="feedback__logo" width="420" height="84" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#logo"></use>
+            </svg>
+            <p class="feedback__wrapper-text">Поделись болью, вопросом или расскажи миру о&nbsp;том, кто из&nbsp;коллег съел твой йогурт</p>
+            <form class="feedback__form" action="#" method="post">
+              <div class="custom-textarea">
+                <input class="custom-textarea__field" type="text" aria-label="Ваше сообщение" name="input-field" placeholder="Ваше сообщение...">
+                <button class="custom-textarea__btn " type="submit">
+                  <svg class="custom-textarea__icon" width="24" height="24" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-input"></use>
+                  </svg>
+              </button>
+              </div>              
+            </form>
+          </div>
+        </div>
+      </section>      
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__logo">
+            <svg class="footer__logo" width="120" height="24" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#logo"></use>
+            </svg>
+            <div class="footer__copyright">
+              <svg class="footer__copyright-icon" width="24" height="24" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-copyright"></use>
+              </svg>
+              <p class="footer__copyright-text">Все права защищены и&nbsp;принадлежат народу</p>
+            </div>
+          </div>
+          <div class="footer__form">
+            <p class="footer__form-text">Читай подборку по&nbsp;дороге на&nbsp;работу или за&nbsp;чашкой кофе</p>
+            <form class="footer__input-email" action="#" method="GET">
+              <div class="custom-email">
+                <input class="custom-email__field" type="email" name="user-mail" id="user-mail" placeholder="Электронная почта">
+                <svg class="custom-email__icon" width="20" height="20" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#icon-mail"></use>
+                </svg>
+                <button class="custom-email__btn" type="submit">Подписаться</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Подвал сайта -->
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.custom-radio {
+    padding: 8px 24px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;    
+}
+
+.custom-radio__label { 
+    width: 100%;   
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+    user-select: none;
+}
+
+.custom-radio__field:checked + .custom-radio__label {
+    color: #87F29A;
+}

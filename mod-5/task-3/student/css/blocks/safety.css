@@ -1,0 +1,87 @@
+.safety {
+    margin: 0 0 75px 0;
+}
+
+.safety__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 290px;
+    gap: 18px 180px;
+    margin: 0 0 60px 0;
+}
+
+.safety__images {
+    border-radius: 20px;
+}
+
+.safety__insurance-wrapper {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 90px 56px 36px;
+    gap: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.safety__file {
+    border-radius: 20px;
+    background-color: #F6EEFB;
+    padding: 24px 24px;
+    display: flex;
+    gap: 14px;    
+}
+
+.safety__file-text {
+    display: grid;
+    gap: 5px;
+}
+
+.safety__file-title {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    }
+
+.safety__file-description {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(36, 36, 36, 0.5);
+}
+
+.safety__insurance-btn {
+    grid-column: span 2;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    display: flex;
+    gap: 12px;
+}
+
+.safety__contact {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.safety__contact-title{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+}
+
+.safety__contact-description {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(36, 36, 36, 0.5);
+}

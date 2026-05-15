@@ -1,0 +1,13 @@
+.custom-toggle {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.custom-toggle__field + .custom-toggle__label {
+  color: #ff0000;
+}
+
+.custom-toggle__field:checked + .custom-toggle__label {
+  color: #0000ff;
+}
