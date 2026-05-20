@@ -15,6 +15,26 @@
     @media (min-resolution: 2dppx) {
       background-image: url("../../images/bg-404@2x.png");
     }
+
+    @include vp-1023 {
+      background-image: url("../../images/bg-404-tablet.png");
+      background-size: 330px 330px;
+      padding-top: 129px;
+    }
+
+    @media (min-resolution: 2dppx) and (max-width: 1023px) {
+      background-image: url("../../images/bg-404-tablet@2x.png");
+    }
+
+    @include vp-767 {
+      background-image: url("../../images/bg-404-mobile.png");
+      padding-top: 80px;
+      gap: 20px;
+    }
+
+    @media (min-resolution: 2dppx) and (max-width: 767px) {
+      background-image: url("../../images/bg-404-mobile@2x.png");
+    }
   }
 
   &__wrap-text {
@@ -23,6 +43,23 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+
+    @include vp-767 {
+      gap: 10px;
+    }
+  }
+
+  &__404 {
+
+    @include vp-1023 {
+      width: 213px;
+      height: 100px;
+    }
+
+    @include vp-767 {
+      width: 142px;
+      height: 70px;
+    }
   }
 
   &__title {
@@ -33,6 +70,17 @@
     color: $color-deep-lilac;
     margin: 0;
     padding: 0;
+
+    @include vp-1023 {
+      font-size: 32px;
+      line-height: 36px;
+    }
+
+    @include vp-767 {
+      font-size: 22px;
+      line-height: 24px;
+      letter-spacing: 0;
+    }
   }
 
   &__text {
@@ -42,5 +90,10 @@
     margin: 0;
     padding: 0;
     text-align: center;
+
+    @include vp-767 {
+      font-size: 13px;
+      line-height: 16px;
+    }
   }
 }
