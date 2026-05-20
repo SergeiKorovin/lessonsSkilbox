@@ -1,0 +1,46 @@
+.not-found {
+
+  &__wrap {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 117px;
+    gap: 40px;
+    background-image: url("../../images/bg-404png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 430px 430px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../images/bg-404@2x.png");
+    }
+  }
+
+  &__wrap-text {
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    color: $color-deep-lilac;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 20px;
+    color: $color-nero;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+}

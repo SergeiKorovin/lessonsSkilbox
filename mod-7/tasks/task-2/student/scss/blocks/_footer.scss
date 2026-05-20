@@ -47,6 +47,10 @@
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.02em;
+
+    &:hover, &:focus {
+      color: $color-deep-lilac;
+    }
   }
 
   &__info-description {
@@ -112,6 +116,10 @@
     font-weight: 500;
     line-height: 20px;
     margin: 0;
+
+    &:hover, &:focus {
+      color: $color-white;
+    }
   }
 
   &__payment {
@@ -207,6 +215,10 @@
     font-weight: 500;
     line-height: 20px;
     margin: 0;
+
+    &:hover, &:focus {
+      color: $color-white;
+    }
   }
 
   &__copyright {

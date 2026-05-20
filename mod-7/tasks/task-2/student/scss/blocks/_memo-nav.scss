@@ -3,6 +3,10 @@
   border-radius: 20px;
   border: 1px solid $color-quartz;
 
+  @include vp-1023 {
+    padding: 20px;
+  }
+
   &__title {
     font-size: 18px;
     font-weight: 600;
