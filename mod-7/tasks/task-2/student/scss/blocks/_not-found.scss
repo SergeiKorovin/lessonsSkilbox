@@ -12,6 +12,10 @@
     background-position: bottom left;
     background-size: 430px 430px;
 
+    @include vp-767 {
+      height: 584px;
+    }
+
     @media (min-resolution: 2dppx) {
       background-image: url("../../images/bg-404@2x.png");
     }
@@ -28,7 +32,9 @@
 
     @include vp-767 {
       background-image: url("../../images/bg-404-mobile.png");
-      padding-top: 80px;
+      background-position: bottom center;
+      background-size: 290px 290px;
+      padding-top: 85px;
       gap: 20px;
     }
 
@@ -45,7 +51,7 @@
     gap: 20px;
 
     @include vp-767 {
-      gap: 10px;
+      gap: 7px;
     }
   }
 
