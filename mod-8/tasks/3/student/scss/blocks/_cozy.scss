@@ -1,0 +1,41 @@
+.cozy {
+    display: flex;
+    gap: 10px;
+    background-image: url(../images/cozy-bg.jpg);
+    padding: 49px 80px;
+    justify-content: space-between;
+    align-items: center;
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__title {
+        padding: 0;
+        margin: 0;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: -0.04em;
+    }
+
+    &__text {
+        padding: 0;
+        margin: 0;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    &__button {
+        font-size: 14px;
+        line-height: 18px;
+        color: $color-white;
+        padding: 21px;
+        width: 240px;
+        background-color: $color-bokara-grey;
+        text-align: center;
+    }
+
+
+}  

@@ -1,6 +1,7 @@
 .images {
     overflow: hidden;
     position: relative;
+    margin: 0 0 120px 0;
 
     &__img {
         width: 100vw;
@@ -19,25 +20,25 @@
 
         &__plus-1 {
             position: absolute;
-            top: 105px;
-            left: 57.5%;
+            top: 116px;
+            left: 57.3%;
         }
 
         &__plus-2 {
             position: absolute;
-            top: 620px;
-            left: 17.5%;
+            top: 641px;
+            left: 17.4%;
         }
 
         &__plus-3 {
           position: absolute;
-          top: 600px;
+          top: 619px;
           left: 50%;
         }
 
         &__plus-4 {
           position: absolute;
-          top: 568px;
-          left: 69%;
+          top: 589px;
+          left: 69.2%;
         }
 }

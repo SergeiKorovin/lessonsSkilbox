@@ -1,0 +1,9 @@
+.products {
+
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+    }
+}
