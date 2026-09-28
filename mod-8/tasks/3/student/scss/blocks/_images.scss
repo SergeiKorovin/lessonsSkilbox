@@ -6,39 +6,29 @@
     &__img {
         width: 100vw;
     }
+    
 
-    &__plus{
-        width: 64px;
-        height: 64px;
-        border-radius: 50%;
-        background-color: $color-hint-of-red;        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+    &__plus-1 {
+        position: absolute;
+        top: 116px;
+        left: 57.3%;
     }
 
-        &__plus-1 {
-            position: absolute;
-            top: 116px;
-            left: 57.3%;
-        }
+    &__plus-2 {
+        position: absolute;
+        top: 641px;
+        left: 17.4%;
+    }
 
-        &__plus-2 {
-            position: absolute;
-            top: 641px;
-            left: 17.4%;
-        }
+    &__plus-3 {
+        position: absolute;
+        top: 619px;
+        left: 50%;
+    }
 
-        &__plus-3 {
-          position: absolute;
-          top: 619px;
-          left: 50%;
-        }
-
-        &__plus-4 {
-          position: absolute;
-          top: 589px;
-          left: 69.2%;
-        }
+    &__plus-4 {
+        position: absolute;
+        top: 589px;
+        left: 69.2%;
+    }
 }
