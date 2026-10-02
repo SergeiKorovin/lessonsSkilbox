@@ -1,0 +1,50 @@
+.help-form {
+
+    &__group {
+        padding: 0;
+        margin: 0 0 30px 0;
+        border: none;        
+    }
+
+    &__group-name {
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 0 40px 0;
+    }
+
+    &__inner{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        padding: 21px 0 0;
+    }
+
+    &__btn {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+        color: $color-white;
+        background-color: $color-bokara-grey;
+        width: 100%;
+        max-width: 240px;
+        padding: 21px;
+        border: none;
+    }
+
+    &__text {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 500;
+        color: #A6A687;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+        &__text-link {
+            text-decoration: underline;
+            color: #A6A687;
+            
+        }
+}

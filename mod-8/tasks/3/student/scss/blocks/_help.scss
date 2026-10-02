@@ -1,0 +1,14 @@
+.help {
+    background-color: #DEDED2;
+    padding: 50px;
+
+    &__title {
+        padding: 0;
+        margin: 0 0 10px 0;
+        font-size: 24px;
+        line-height: 28px;
+        color: $color-bokara-grey;
+        text-align: center;
+        letter-spacing: -0.02em;
+    }
+}
